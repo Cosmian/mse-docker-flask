@@ -1,9 +1,9 @@
-name: MSE flask docker image
+name: MSE anonymization docker image
 
 on:
   push:
     branches:
-      - '*'
+      - "*"
 
 env:
   REGISTRY: ghcr.io
@@ -16,7 +16,7 @@ jobs:
       packages: write
       contents: read
     env:
-      IMAGE: ghcr.io/cosmian/mse-flask
+      IMAGE: ghcr.io/cosmian/mse-anonymization
 
     steps:
       - name: Build date
