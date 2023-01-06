@@ -1,5 +1,5 @@
-# MSE docker image with flask
+# MSE docker image with flask and Cosmian anonymization library
 
-Example of docker image extending [mse-base](https://github.com/Cosmian/mse-docker-base) to add [Flask](https://flask.palletsprojects.com/en/2.2.x/) and [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/) in [MSE](https://cosmian.com/microservice-encryption/).
+This docker image extends [mse-base](https://github.com/Cosmian/mse-docker-base) with [cosmian_lib_anonymization](https://pypi.org/project/cosmian-lib-anonymization/) and [pandas](https://pandas.pydata.org/) in [MSE](https://cosmian.com/microservice-encryption/).
 
-Use URLs of images released on [pkgs/mse-flask](https://github.com/Cosmian/mse-docker-flask/pkgs/container/mse-flask) to deploy your microservice.
+Use URLs of images released on [pkgs/mse-anonymization](https://github.com/Cosmian/mse-docker-anonymization/pkgs/container/mse-anonymization) to deploy your microservice.
