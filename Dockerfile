@@ -1,4 +1,4 @@
-FROM ghcr.io/cosmian/mse-base:20230104084742
+FROM ghcr.io/cosmian/mse-base:20230110175558
 
 RUN pip3 install "flask==2.2.2" \
                  "pandas==1.5.2" \
