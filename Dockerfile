@@ -1,4 +1,4 @@
-FROM ghcr.io/cosmian/mse-base:20230124175013
+FROM ghcr.io/cosmian/mse-base-beta:11e004f717815743ef80d7952e5677cd42a6102c
 
 RUN pip3 install "flask==2.2.2" \
                  "Flask-Cors==3.0.10" \
